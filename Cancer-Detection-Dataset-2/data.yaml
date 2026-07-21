@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['BC']
+
+roboflow:
+  workspace: med-2fnb4
+  project: cancer-detection-dataset-vrorj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/med-2fnb4/cancer-detection-dataset-vrorj/dataset/2
